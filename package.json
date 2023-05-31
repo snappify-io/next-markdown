@@ -1,6 +1,6 @@
 {
-  "name": "next-markdown",
-  "version": "1.8.0",
+  "name": "@snappify/next-markdown",
+  "version": "1.8.1",
   "description": "Static pages generated from markdown files for your Next.js website.",
   "source": "src/index.ts",
   "main": "dist/main.js",
@@ -61,7 +61,7 @@
   "dependencies": {
     "github-slugger": "1.4.0",
     "gray-matter": "4.0.3",
-    "next-mdx-remote": "4.0.2",
+    "next-mdx-remote": "^4.4.1",
     "rehype-remark": "9.1.2",
     "rehype-slug": "^5.0.1",
     "rehype-stringify": "9.0.3",

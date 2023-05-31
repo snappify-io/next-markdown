@@ -37,7 +37,7 @@ describe('transform file raw data into props', () => {
   const mdContent = '# This part will be mocked';
   const plugins = {
     markdownToHtml: () => Promise.resolve('<p>mock</p>'),
-    mdxSerialize: () => Promise.resolve({ compiledSource: 'js-something' }),
+    mdxSerialize: () => Promise.resolve({ compiledSource: 'js-something', scope: {}, frontmatter: {} }),
     tableOfContents: () => toc,
   };
 
